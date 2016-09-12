@@ -55,7 +55,7 @@ jQuery(document).ready(function($) {
     var finishedTrigged = false;
 	/* Time Countdown 
 	-------------------------------------------------------------------*/
-	$('#time_countdown').countdown("2016/09/12 15:42:00", {
+	$('#time_countdown').countdown("2016/09/13 00:00:00", {
         elapse: true
     }).on('update.countdown', function(event){
         $("#time_countdown .days_dash .time-number").html("<span class='digit'>"+event.strftime("%D")[0]+"</span><span class='digit'>"+event.strftime("%D")[1]+"</span>");
